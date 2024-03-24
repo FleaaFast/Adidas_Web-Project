@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 15px;
+    background-color: black;
+
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 15px;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 10%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.icons{
+    padding: 15px;
+    color: white;
+}
+
+.banner{
+    padding: 15px;
+    background-color: purple;
+    background-image: url(./photo-sans-82-64a54d27524bd.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.content{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    display: grid;
+    gap: 15px;
+    justify-items: center;
+    border-radius: 5%;
+}
+
+.content button{
+    padding: 15px;
+    font-style: italic;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border-color: azure;
+}
+
+.section-title{
+    text-align: center;
+    padding: 15px;
+}
+
+.products-wrapper{
+    padding: 15px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    justify-items: center;
+    gap: 15px;
+}
+
+.banner h3{
+    color: azure;
+}
+
+h3{
+    color: black;
+}
+
+h4{
+    color: azure;
+}
+
+.card{
+    padding: 15px;
+    background-color: rgb(218, 218, 218);
+    color: white;
+    height: 300px;
+    width: 200px;
+
+    display: grid;
+    gap: 5px;
+    border: 5px solid gray;
+    border-radius: 10%;
+    gap: 5px;
+}
+
+.card img{
+    width: 100%;
+    height: 140px;
+}
+
+#buy{
+    padding: 15px;
+}
+
+form{
+    padding: 15px;
+    background-color: gray;
+    color: white;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    border-radius: 20px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+form button{
+    background-color: black;
+    color: whitesmoke;
+    grid-column: 1/3;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+.card button{
+    color: azure;
+    background-color: black;
+}
+
+#info{
+    background-color: yellow;
+    padding: 15px;
+}
+
+ion-icon{
+    font-size: 25px;
+}
+
+h1{
+    color: black;
+}
+
+footer{
+    padding: 15px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
